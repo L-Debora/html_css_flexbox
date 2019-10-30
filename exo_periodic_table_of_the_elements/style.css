@@ -1,0 +1,208 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+h1 {
+  font-style: italic;  
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 2%;
+
+}
+
+.left-line {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.right-content {
+  margin-top: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.right-first-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-second-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.right-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-left: 8px;
+  width: 55px;
+  min-height: 55px;
+  border: 1px solid black;
+}
+
+.box.green {
+  background-color: #8ef063;
+}
+ .box.red {
+   background-color: #f06c63;
+ }
+
+ .box.red.dashed {
+   border-style: dashed;
+ }
+
+ .box.nude {
+  background-color: #eedcaa;
+ }
+
+ .box.nude.dashed {
+  border-style: dashed;
+ }
+
+ .box.blue {
+   background-color: #99e5d8;
+ }
+
+ .box.blue.dashed {
+  border-style: dashed;
+}
+
+ .box.yellow {
+   background-color: #fcf76d;
+ }
+
+ .box.brown {
+   background-color: #d2ca94;
+ }
+
+ .box.grey {
+   background-color: #bfbdb7;
+ }
+
+ .box.light-grey {
+   background-color: #e8e8e6;
+ }
+
+ .box.light-grey.dotted {
+  border-style: dotted;
+}
+
+ .box.pink {
+   background-color: #fab9cf;
+ }
+
+ .box.pink.dashed {
+  border-style: dashed;
+}
+
+.box.pink.dotted {
+  border-style: dotted;
+}
+
+ .box.purple {
+   background-color: #f5aced;
+ }
+
+ .box.purple.dashed {
+  border-style: dashed;
+}
+
+ .box.fushia {
+   background-color: #fc93d6;
+ }
+
+ .box.fushia.dashed {
+  border-style: dashed;
+}
+
+.box.fushia.dotted {
+  border-style: dotted;
+}
+
+.hydro {
+  color: red;
+  font-size: 65%;
+}
+
+.number-red {
+  color: red;
+  font-size: 65%;
+  font-weight: bold;
+}
+
+.H {
+  color: red;
+  font-size: 65%;
+  font-weight: bold;
+}
+
+.big-number {
+  color: black;
+  font-size: 65%;
+}
+
+.lithium {
+  color: black;
+  font-size: 65%;
+}
+
+.Li {
+  color: black;
+  font-weight: bold;
+  font-size: 65%;
+}
+
+.black-number {
+  color: black;
+  font-size: 65%;
+  font-weight: bold;
+}
+
+.brome {
+  color: blue;
+  font-size: 65%;
+}
+
+.blue-number {
+  color: blue;
+  font-size: 65%;
+  font-weight: bold;
+}
+
+.BR {
+  color: blue;
+  font-weight: bold;
+  font-size: 65%;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: #84807f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #84807f;
+  height: 500px;
+
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.line.flex_end {
+  background-image: linear-gradient(
+    to left,
+    white, #84807f 45%
+  );
+ 
+}
+
+.line.flex_start {
+  background-image: linear-gradient(
+    to right,
+    white, #84807f 45%
+  );
+}
